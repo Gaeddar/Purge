@@ -43,10 +43,9 @@ body {
 #div12 {
 	z-index: 1;
 	position: absolute;
-	right: 0;
+	left: 0;
 	bottom: 0;
-	margin-bottom: -35px;
-	margin-right: -17px;
+	margin-bottom: -8px;
 }
 
 #todo {
@@ -433,7 +432,7 @@ body {
     width: 70%;
     height: 100%;
     background: #18181d;
-    padding: 5%;
+    padding: 2%;
     flex-wrap: wrap;
 }
 
