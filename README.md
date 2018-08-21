@@ -14,7 +14,7 @@ Features:
 [**Live Preview**](https://gaeddar.github.io/Purge/?)
 
 ### Preview
-![preview](preview.webm)
+![preview](preview.gif)
 
 Disclaimer
 ----
