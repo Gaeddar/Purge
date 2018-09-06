@@ -122,6 +122,18 @@ body {
   height: 70px;
   animation: opacity 4s, spin 2s linear infinite;
 }
+
+#quotes {
+  color:#ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  animation: opacity 4s;
+  }
+
+
 #loading {
   position: absolute;
   font-size:155%;
