@@ -7,7 +7,7 @@ var quotes = [
 	'Do not take life too seriously. You will never get out of it alive.',
 	'You\'re gonna carry that weight',
 	'Take that leap \[wsg\]',
-	'Are you self conscious?';
+	'Are you self conscious?'];
 var currentQuote = 0;
 
 function nextQuote(showImmediately) {
