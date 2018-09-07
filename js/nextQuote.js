@@ -3,7 +3,11 @@ jQuery(document).ready(function($){
 var quotes = [
     'The sky is the limit, And beyond is the universe', 
     'Welcome to a world of darkness \[wsg\]',
-    'You are carry that weight'];
+    'Don\'t forget, you\'re here forever.',
+	'Do not take life too seriously. You will never get out of it alive.',
+	'You\'re gonna carry that weight',
+	'Take that leap \[wsg\]',
+	'Are you self conscious?';
 var currentQuote = 0;
 
 function nextQuote(showImmediately) {
