@@ -437,6 +437,7 @@ a {
     left: 0;
     top: 0;
     bottom: 0;
+	z-index: 2;
     margin: auto;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     background: #18181d;

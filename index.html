@@ -10,9 +10,45 @@
 		<link href="css/scanlines.css" rel="stylesheet" type="text/css">
 		
     <script type="text/javascript" src="js/jQuery3.3.1.js"></script>
-	
+	<script type="text/javascript" src="js/howler.js"></script>
 	<script type="text/javascript" src="js/nextQuote.js"></script>
+<script>
+        var sound = new Howl({
+            src: ['/audio/CandlewolffovTheeGoldenChalice.mp3'],
+				autoplay: true,
+				loop: true,
+				volume: 0.5,
+        });
+</script>
 		<title>–⊣※⊢–</title>
+		
+<style>
+#panels{
+    animation: 10s swiwlebob infinite alternate ease-in-out;
+}
+#tabs {
+    animation: 8s swiwlebob infinite alternate ease-in-out;
+}
+
+@keyframes swiwlebob {
+	0% {
+		transform: rotate(-0.5deg) translateY(-6px);
+	}
+	25% {
+		transform: rotate(0.5deg) translateY(0px);
+	}
+	50% {
+		transform: rotate(-0.5deg) translateY(6px);
+	}
+	75% {
+		transform: rotate(0.5deg) translateY(0px);
+	}
+	100% {
+		transform: rotate(-0.5deg) translateY(-6px);
+	}
+}
+</style>
+
 </head>
 
 <body onload="myFunction()" style="margin:0;">
